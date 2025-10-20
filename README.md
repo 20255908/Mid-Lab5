@@ -1,1 +1,130 @@
-"# Mid-Lab5" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id = "container" >
+		
+		<div id = "header">
+			<center><img src="images/banner.png"></center>  
+		</div>
+
+        
+        <form>
+            <fieldset style="width: 800px;">
+                <legend><h3>Personal Info</h3></legend>
+    
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Age</td>
+                        <td>
+                            <input type="number" >
+                        </td>
+                    </tr>
+                   
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <select>
+                                <option disabled selected>--Select--</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset style="width: 800px;">
+                <legend><h3>Diet Tracking (Mon-Fri)</h3></legend>
+    
+                <table border="1px" width="50px">
+                    <tr>
+                        <td><b>Day</b></td>
+                        <td><b>Calories</b></td>
+                    </tr>
+                    <tr>
+                        <td>Mon</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td>Tue</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Wed</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Thu</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Fri</td>
+                        <td><input type="number"></td>
+                    </tr>
+                   
+                </table>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset style="width: 800px;">
+                <legend><h3>Exercise (Mon-Fri)</h3></legend>
+    
+                <table border="1px" width="50px">
+                    <tr>
+                        <td><b>Day</b></td>
+                        <td><b>Minutes</b></td>
+                    </tr>
+                    <tr>
+                        <td>Mon</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Tue</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Wed</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Thu</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Fri</td>
+                        <td><input type="number"></td>
+                    </tr>
+                   
+                </table>
+            </fieldset>
+        </form><br>
+    </div>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+</div>
+<br><br>
+
+
+<iframe src="https://www.youtube.com/embed/Cbs6k8VUuNI" align="right" style="width: fit-content;"></iframe>
+<p> Watch this video for tips on healthy eating and exercise!</p>
+
+</body>
+</html>
