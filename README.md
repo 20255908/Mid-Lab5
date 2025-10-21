@@ -17,10 +17,10 @@
         </tr>
 
         <tr>
-            <!-- Left Side -->
+           
             <td width="60%" valign="top">
                 
-                <!-- Personal Info -->
+               
                 <form>
                     <fieldset>
                         <legend><h3>Personal Info</h3></legend>
@@ -48,7 +48,7 @@
                 </form>
                 <br>
 
-                <!-- Diet Tracking -->
+               
                 <form>
                     <fieldset>
                         <legend><h3>Diet Tracking (Mon–Fri)</h3></legend>
@@ -67,7 +67,7 @@
                 </form>
                 <br>
 
-                <!-- Exercise -->
+              
                 <form>
                     <fieldset>
                         <legend><h3>Exercise (Mon–Fri)</h3></legend>
@@ -91,7 +91,7 @@
 
             </td>
 
-            <!-- Right Side (with iframe) -->
+           
             <td width="40%" valign="top" align="center">
                 <iframe 
                     width="450" 
